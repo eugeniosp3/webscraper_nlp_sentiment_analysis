@@ -1,0 +1,54 @@
+        valso = [
+        
+        app_name, 
+        date, 
+        review_title, 
+        user_role_title, 
+        company_industry, 
+        company_size, 
+        score]
+
+
+        valso = [
+        use_case_deployment_scope, 
+        pros, 
+        cons, 
+        roi, 
+        competitors_considered,
+        support_rating_usability_recommendation, 
+        other_questions, 
+        others_used]
+        
+        
+        
+        create table header_columns
+               (
+                app_id int auto_increment,
+                app_name text not null,
+                review_date text not null,
+                review_title text not null,
+                user_role_title text not null,
+                company_industry text not null,
+                company_size text not null,
+                score text not null,
+                primary key (app_id)
+
+
+               )
+               
+               
+               create table body_columns
+               (
+                app_id int auto_increment,
+                use_case_deployment_scope text not null,
+                pros text not null,
+                cons text not null,
+                roi text not null,
+                competitors_considered text not null,
+                support_rating_usability_recommendation text not null,
+                other_questions text not null,
+                others_used text not null,
+                primary key (app_id)
+
+
+               )
