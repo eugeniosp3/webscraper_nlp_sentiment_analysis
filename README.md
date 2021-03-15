@@ -1,4 +1,3 @@
-TR.com-Scrape-Analysis
 
 -- This project is a scrape of a software review site. 
 
